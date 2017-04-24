@@ -1,7 +1,12 @@
-function page() {
-    alert("hello");
-}
+$(document).ready(function(){
 
 var now = moment();
 
-console.log(now);
+
+
+function displayDate(){
+    $("#date").text(now.d);
+}
+
+displayDate();
+});
