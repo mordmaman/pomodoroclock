@@ -1,0 +1,26 @@
+{
+  "name": "pomodoroclock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es6.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mordmaman/pomodoroclock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mordmaman/pomodoroclock/issues"
+  },
+  "homepage": "https://github.com/mordmaman/pomodoroclock#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
