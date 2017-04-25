@@ -11,9 +11,14 @@ console.log(1+1);
         console.log(now._d);
     }
 
-    $( window ).on( "load", function() {
+    // $( window ).on( "load", function() {
+    //     $("#date").text(now._d);
+    //     console.log( "window loaded" );
+    // });
+
+    $( document ).ready(function() {
         $("#date").text(now._d);
-        console.log( "window loaded" );
+        console.log( "doc loaded" );
     });
 
 
