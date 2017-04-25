@@ -1,12 +1,7 @@
-$(document).ready(function(){
+
 
 var now = moment();
 
 
-
-function displayDate(){
-    $("#date").text(now.d);
-}
-
-displayDate();
-});
+    // $("#date").text(now.d);
+    console.log(now.d);
