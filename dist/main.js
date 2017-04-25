@@ -19,7 +19,24 @@ console.log(1+1);
     $( document ).ready(function() {
         $("#date").text(now._d);
         console.log( "doc loaded" );
+
+        let five = 5;
+        $("#time").text("five")
+
+        
+
+        var timer = moment.duration(five, "seconds").timer(function() { 
+            console.log("timer finished")
+            $("#time").text("timer finished")
+        });
+
+        var remainingDuration = timer.getRemainingDuration();
+        for (let i = remainingDuration; i > 0; i --){
+            console.log(i);
+        }
+        
     });
 
+    
 
     displayDate();
